@@ -3,10 +3,11 @@
 ![my photo](photo.jpg)
 
 ### Contact  
-##### Location: Minsk, Belarus  
-##### Phone number: (29) 506 68 35  
-##### Email: lesya.bunel@mail.ru  
-##### GitHub: [Alesia Bunel (@lesiabun)](https://github.com/lesiabun)
+* Location: Minsk, Belarus  
+* Phone number: (29) 506 68 35  
+* Email: lesya.bunel@mail.ru  
+* GitHub: [Alesia Bunel (@lesiabun)](https://github.com/lesiabun)
+
 ___
 ### About me  
 ##### I graduated from UI/UX design preparatory courses, but I like to create design using code more. I've been learning JavaScript on my own to develop interfaces for six months. I want to work in this niche because I like the process of solving problems and as a result their successful completion gives me a feeling of improving my professional skills.  
