@@ -1,0 +1,167 @@
+.body{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    flex-direction: column; /*прижать footer важно*/ 
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+ .html { /*прокрутка*/
+    scroll-behavior: smooth; 
+  }
+  
+.container { /*ограничивает ширину контейнера и центринует его по горизонтали*/ 
+    max-width: 1024px;
+    margin: 0% auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.section {
+    width: 50%;
+    line-height: 1.3em;
+    margin-top: 20px;
+}
+
+.contacts{
+    line-height: 1.5em;
+}
+
+.header{
+    background-color: rgb(207, 146, 237);
+}
+
+.header a{
+    color: black;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.nav-list li a{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-list li {
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.my-code{
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+.section-title { /*Стилизация заголовков секций*/
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: darkorchid;
+  font-family: 'Inter';
+}
+
+.link { /*Пример стилизации ссылок*/
+    text-decoration: none;
+    color: #829985;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #5d7260;
+}
+
+.me{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-right: 135px;
+}
+
+.about-me{
+    font-family: 'Inter';
+    font-size: 15px;
+    width: 400px; 
+
+}
+
+.footer a{
+    color: black;
+ }
+
+ .footer{
+    background-color: rgb(207, 146, 237);
+ }
+
+ .footer-text{
+    display: flex;
+ }
+
+ .info{
+    font-size: 16px;
+ }
+
+ .link{
+    margin-top: 7px;
+    margin-left: 370px;
+ }
+
+ .dot{
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+ }
+
+ .dotok{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(207, 146, 237);
+    border-radius: 50%;
+    display: inline-block;
+ }
+
+ .my-skills{
+    display: flex;
+    margin: auto;
+    line-height: 0.5px;
+ }
+
+  .do{
+    margin-left: auto;
+    margin-right: 300px;
+    margin-top: 8px;
+  }
