@@ -1,2 +1,2 @@
-https://lesiabun.github.io/rsschool-cv/cv
+https://lesiabun.github.io/rsschool-cv/c
 https://lesiabun.github.io/rsschool-cv/
