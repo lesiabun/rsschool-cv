@@ -49,6 +49,10 @@ h1{
     color: black;
 }
 
+.main a{
+    color: black;
+}
+
 .nav{
     display: flex;
 }
