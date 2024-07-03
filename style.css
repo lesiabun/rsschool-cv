@@ -1,0 +1,15 @@
+.body{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    display: flex;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    flex-direction: column; /*прижать footer важно*/ 
+    min-height: 100vh;
+}
+
+.container { /*ограничивает ширину контейнера и центринует его по горизонтали*/ 
+    max-width: 1024px;
+    margin: 0 auto;
+}
