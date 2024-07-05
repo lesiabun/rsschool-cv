@@ -12,25 +12,26 @@
 </head>
 
 <body>
-    <header>
+        <header class="header">
+            <div class="container">
+                <nav class="menu">
+                    <ul class="ul-menu">
+                        <li><a href="">About me</a></li>
+                        <li><a href="">Skills</a></li>
+                        <li><a href="">Code</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Courses</a></li>
+                        <li><a href="">Languages</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+                <img src="me.png" alt="me" width="200px">
+                <h1>Bunel Alesia</h1>
+            </div>
+        </header>
+    <main class="main">
         <div class="container">
-            <nav class="menu">
-                <ul>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Code</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Courses</a></li>
-                    <li><a href="">Languages</a></li>
-                    <li><a href="">Contacts</a></li>
-                </ul>
-            </nav>
-            <img src="me.png" alt="me" width="200px">
-            <h1>Bunel Alesia</h1>
-        </div>
-    </header>
-    <main>
-        <div class="container">
+            <div class="main-container">
             <section class="Contacts">
                 <h2>Contacts</h2>
                 <div>
@@ -38,7 +39,6 @@
                         <li>Location: Minsk, Belarus</li>
                         <li>Phone number: (29) 506 68 35</li>
                         <li>Email:<a href="lesya.bunel@mail.ru">lesya.bunel@mail.ru</a></li>
-                        <li></li>
                     </ul>
                 </div>
             </section>
@@ -59,7 +59,8 @@
             </section>
             <section class="Code">
                 <h2>Code</h2>
-                <code>function findAverage(array) {
+                <pre>
+                function findAverage(array) {
                     let sum = 0;
                     for (let i = 0; i < array.length; i ++){
                     sum += array[i]
@@ -72,7 +73,7 @@
                         return 0;
                     }
                 }
-                </code>
+                </pre>
             </section>
             <section class="Projects">
                 <h2>Projects</h2>
@@ -100,9 +101,11 @@
                     </ul>
                 </div>
             </section>
+            </div>
         </div>
     </main>
-    <footer>
+
+    <footer class="footer">
         <div class="container">
             <a href="https://rs.school/courses/javascript-ru"><img src="gh.png" alt="gh;ogo" width="50px"></a>
         </div>

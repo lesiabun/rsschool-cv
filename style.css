@@ -1,4 +1,4 @@
-.body{
+body{
     padding: 0;
     margin: 0;
     color: black;
@@ -9,7 +9,29 @@
     min-height: 100vh;
 }
 
-.container { /*ограничивает ширину контейнера и центринует его по горизонтали*/ 
+.container {
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 512px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-menu {
+    list-style-type: none;
 }
