@@ -28,10 +28,22 @@ section {
 }
 
 .menu {
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .ul-menu {
     list-style-type: none;
+    display: flex;
+    justify-content: right;
+}
+
+.li-menu {
+    margin-left: 50px;
+}
+
+/*ФУТЕР!*/
+
+.footer-conteiner {
+    display: flex;
+    justify-content: space-around;
 }
