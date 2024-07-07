@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>My CV</title>
 </head>
 
 <body>
         <header class="header">
-            <div class="container">
+            <div class="container header-container">
                 <nav class="menu">
                     <ul class="ul-menu">
                         <li class="li-menu"><a href="">About me</a></li>
@@ -25,8 +25,10 @@
                         <li class="li-menu"><a href="">Contacts</a></li>
                     </ul>
                 </nav>
-                <img src="me.png" alt="me" width="200px">
-                <h1>Bunel Alesia</h1>
+                <div class="element-header">
+                    <img class="me" src="me.png" alt="me" width="150px">
+                    <h1>Bunel Alesia</h1>
+                </div>
             </div>
         </header>
     <main class="main">
@@ -38,7 +40,7 @@
                     <ul>
                         <li>Location: Minsk, Belarus</li>
                         <li>Phone number: (29) 506 68 35</li>
-                        <li>Email:<a href="lesya.bunel@mail.ru">lesya.bunel@mail.ru</a></li>
+                        <li>Email: <a href="lesya.bunel@mail.ru">lesya.bunel@mail.ru</a></li>
                     </ul>
                 </div>
             </section>
@@ -56,24 +58,6 @@
                         <li>CSS</li>
                     </ul>
                 </div>
-            </section>
-            <section class="Code">
-                <h2>Code</h2>
-                <pre>
-                function findAverage(array) {
-                    let sum = 0;
-                    for (let i = 0; i < array.length; i ++){
-                    sum += array[i]
-                    };
-                    let result = sum/array.length;
-                    if (result > 0){
-                    return result;
-                    }
-                    else {
-                        return 0;
-                    }
-                }
-                </pre>
             </section>
             <section class="Projects">
                 <h2>Projects</h2>
@@ -101,6 +85,22 @@
                     </ul>
                 </div>
             </section>
+            <section class="Code">
+                <h2>Code</h2>
+                <pre>function findAverage(array) {
+                    let sum = 0;
+                    for (let i = 0; i < array.length; i ++){
+                    sum += array[i]
+                    };
+                    let result = sum/array.length;
+                    if (result > 0){
+                    return result;
+                    }
+                    else {
+                        return 0;
+                    }
+                }</pre>
+            </section>
             </div>
         </div>
     </main>
@@ -108,9 +108,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-conteiner">
-                    <a href="https://rs.school/courses/javascript-ru"><img src="gh.png" alt="gh;ogo" width="50px"></a>
-                <div>lesiabun</div>
-                <div>2024</div>
+                <div class="element-footer"><a href="https://github.com/lesiabun">lesiabun</a></div>
+                <a class="element-footer" href="https://rs.school/courses/javascript-ru"><img src="logogit.png" alt="gh;ogo" width="30px"></a>
+                <div class="element-footer">2024</div>
             </div>
         </div>
     </footer>

@@ -1,18 +1,47 @@
 body{
     padding: 0;
     margin: 0;
-    color: black;
+    color: white;
     font-size: 16px;
     display: flex;
-    font-family: 'Inter', 'Roboto', sans-serif;
+    font-family: "Advent Pro", sans-serif;
     flex-direction: column; /*прижать footer важно*/ 
     min-height: 100vh;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .container {
     max-width: 1024px;
     margin: 0 auto;
+    background-image: url(back.png);
 }
+
+.header-container {
+    
+}
+
+.element-header {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
 
 .main {
     flex: 1 0 auto;
@@ -24,7 +53,9 @@ body{
 }
 
 section {
-    width: 512px;
+    width: 412px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .menu {
@@ -35,6 +66,8 @@ section {
     list-style-type: none;
     display: flex;
     justify-content: right;
+    margin: 0;
+    padding: 20px;
 }
 
 .li-menu {
@@ -46,4 +79,10 @@ section {
 .footer-conteiner {
     display: flex;
     justify-content: space-around;
+    
+}
+
+.element-footer {
+    display: flex;
+    align-items: center;
 }
