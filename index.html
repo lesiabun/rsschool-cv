@@ -16,17 +16,17 @@
             <div class="container header-container">
                 <nav class="menu">
                     <ul class="ul-menu">
-                        <li class="li-menu"><a href="">About me</a></li>
-                        <li class="li-menu"><a href="">Skills</a></li>
-                        <li class="li-menu"><a href="">Code</a></li>
-                        <li class="li-menu"><a href="">Projects</a></li>
-                        <li class="li-menu"><a href="">Courses</a></li>
-                        <li class="li-menu"><a href="">Languages</a></li>
-                        <li class="li-menu"><a href="">Contacts</a></li>
+                        <li class="li-menu"><a href="#about">About me</a></li>
+                        <li class="li-menu"><a href="#skills">Skills</a></li>
+                        <li class="li-menu"><a href="#project">Projects</a></li>
+                        <li class="li-menu"><a href="#courses">Courses</a></li>
+                        <li class="li-menu"><a href="#languages">Languages</a></li>
+                        <li class="li-menu"><a href="#contacts">Contacts</a></li>
+                        <li class="li-menu"><a href="#code">Code</a></li>
                     </ul>
                 </nav>
                 <div class="element-header">
-                    <img class="me" src="me.png" alt="me" width="150px">
+                    <img class="me" src="me.png" alt="me" width="150">
                     <h1>Bunel Alesia</h1>
                 </div>
             </div>
@@ -34,7 +34,7 @@
     <main class="main">
         <div class="container">
             <div class="main-container">
-            <section class="Contacts">
+            <section class="Contacts" id="contacts">
                 <h2>Contacts</h2>
                 <div>
                     <ul>
@@ -44,7 +44,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="About me">
+            <section class="About me" id="about">
                 <h2>About me</h2>
                 <div>I graduated from UI/UX design preparatory courses, but I like to create design using code more. I want to work in this niche because I like the process of solving problems and as a result their successful completion gives me a feeling of improving my professional skills.
                 </div>
@@ -68,7 +68,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="Courses">
+            <section class="Courses" id="courses">
                 <h2>Courses</h2>
                 <div>
                     <ul>
@@ -85,21 +85,13 @@
                     </ul>
                 </div>
             </section>
-            <section class="Code">
+            <section class="Code" id="code">
                 <h2>Code</h2>
-                <pre>function findAverage(array) {
-                    let sum = 0;
-                    for (let i = 0; i < array.length; i ++){
-                    sum += array[i]
-                    };
-                    let result = sum/array.length;
-                    if (result > 0){
-                    return result;
+                <code>
+                    function makeUpperCase(str) { <br>
+                        &nbsp;return (str.toUpperCase()) <br>
                     }
-                    else {
-                        return 0;
-                    }
-                }</pre>
+                </code>
             </section>
             </div>
         </div>
@@ -109,7 +101,7 @@
         <div class="container">
             <div class="footer-conteiner">
                 <div class="element-footer"><a href="https://github.com/lesiabun">lesiabun</a></div>
-                <a class="element-footer" href="https://rs.school/courses/javascript-ru"><img src="logogit.png" alt="gh;ogo" width="30px"></a>
+                <a class="element-footer" href="https://rs.school/courses/javascript-ru"><img src="logogit.png" alt="gh;ogo" width="30"></a>
                 <div class="element-footer">2024</div>
             </div>
         </div>
